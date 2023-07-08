@@ -1,0 +1,79 @@
+/* Navigation */
+#navbar{
+flex-direction: column;
+
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0 7px;
+}
+
+
+/* Home */
+#home{
+height: 300px;
+padding: 3px 75px;
+
+}
+#home h1{
+    
+    font-size: 40px;
+}
+#home p{
+    font-size: 10px;
+}
+#home::before{
+height: 400px;
+}
+
+/* Products */
+#products {
+     flex-direction: column;
+
+
+}
+#products .box img {
+    height: 142px;
+}
+
+/* Brands */
+
+
+#brands{
+    flex-wrap: wrap;
+}
+#brand-item image{
+    height: 66px;
+}
+
+
+/* Contact */
+
+
+#contact-box button{
+    font-size: 1rem;
+    border-radius: 13px;
+    background-color: orange;
+    color: white;
+    padding: 0px 9px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+/* footer */
+
+
+
+.h-primary{
+    font-size: 2rem;
+}
+
+.btn{
+    margin-top: 12px;
+    padding: 0px 9px;
+    border: 2px solid white;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
